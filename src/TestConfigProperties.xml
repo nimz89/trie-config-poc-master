@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+
+    <entry key="order">
+        siteid, lob, isResponsive, locale,
+        abacus.CKOHSplitPayUK,abacus.CKOHSplitPay,abacus.HideFullAccountFeaturesExperiment,abacus.LastMinuteUserAccounts,
+        abacus.CKOPckgRespSignIn
+
+    </entry>
+
+
+    <entry key="splitPaySupported">false</entry>
+    <!--enabled with expriment id 5978-->
+    <entry key="splitPaySupported ? siteid=1 and  lob=hotel and isResponsive=true and locale=en_US and abacus.CKOHSplitPay=1">true</entry>
+    <!--enabled with expriment id 6171-->
+    <entry key="splitPaySupported ? siteid=1 and  lob=hotel and abacus.CKOHSplitPayUK=1">true</entry>
+    <entry key="splitPaySupported ? siteid=8 and  lob=hotel and isResponsive=true and abacus.CKOHSplitPayUK=1">true</entry>
+    <entry key="splitPaySupported ? siteid=9 and  lob=hotel and isResponsive=true and abacus.CKOHSplitPayUK=1">true</entry>
+
+
+    <entry key="couponModuleEnabled">false</entry>
+    <entry key="couponModuleEnabled ? lob=hotel">true</entry>
+    <entry key="couponModuleEnabled ? lob=hotel and siteid=30031">false</entry>
+    <entry key="couponModuleEnabled ? lob=hotel and siteid=30031 and abacus.CouponCodeModuleControlHWRetailHotels=1">true</entry>
+    <entry key="couponModuleEnabled ? lob=package and abacus.CKOPckgRespCoupons=1">true</entry>
+    <entry key="couponModuleEnabled ? lob=air and abacus.CKOAFaceOffM9Coupons=1">true</entry>
+
+
+
+</properties>
